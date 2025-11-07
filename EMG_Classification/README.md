@@ -27,3 +27,5 @@ Predecir el gesto/movimiento a partir de ventanas de señal EMG utilizando carac
 `pandas`, `numpy`, `scikit-learn`, `matplotlib`
 
 ## 📁 Contenido
+├── EMG_Classification.ipynb
+└── TA_09M1_GRUPO9.pdf # Informe académico (referencia)
