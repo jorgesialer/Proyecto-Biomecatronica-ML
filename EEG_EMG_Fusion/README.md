@@ -24,4 +24,5 @@ Mejorar el reconocimiento de gestos combinando información de **actividad cereb
 
 ## 📁 Contenido
 ├── EEG_EMG.ipynb
+
 └── LAB5_EMG_EEG.pdf # Guía/lab académico (referencia)
