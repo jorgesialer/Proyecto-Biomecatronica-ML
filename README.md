@@ -1,29 +1,19 @@
-# Proyecto-Biomecatronica-ML
-Proyectos desarrollados en el curso Fundamentos y Aplicaciones de Biomecatrónica (PUCP), enfocados en análisis y clasificación de señales biomédicas mediante ML.
+# 🧠 Biomecatrónica · Machine Learning aplicado a bioseñales (EMG & EEG)
 
-# Machine Learning aplicado a señales biomédicas (EMG y EEG)
+Este repositorio reúne proyectos del curso **Fundamentos y Aplicaciones de Biomecatrónica (PUCP)** enfocados en el procesamiento de **señales EMG y EEG** y su uso en **modelos de Machine Learning** para reconocimiento de patrones.
 
-Este repositorio reúne proyectos desarrollados en el curso **Fundamentos y Aplicaciones de Biomecatrónica (PUCP)**, enfocados en el procesamiento de señales biológicas y el uso de **modelos de Machine Learning** para el reconocimiento de patrones musculares y cerebrales.
+## 📦 Proyectos incluidos
+1. `EMG_Classification/` — Clasificación de movimientos a partir de **señales EMG** (extracción de características y ML).
+2. `EEG_EMG_Fusion/` — **Fusión multimodal EEG+EMG** para reconocimiento de gestos (resampling, filtrado, PCA, benchmarking).
 
-## 🧠 Contenido
+## 🧩 Objetivos de aprendizaje
+- Limpieza y preprocesamiento de señales biomédicas.
+- Extracción de características en **tiempo** (EMG) y **frecuencia** (EEG).
+- Entrenamiento y evaluación de modelos (SVM, Random Forest, MLP).
+- Integración de señales y **reducción de dimensionalidad** (PCA).
 
-### 1. EMG_Classification
-- Procesamiento de señales de electromiografía (EMG)
-- Extracción de características en el dominio del tiempo (MAV, RMS, WL, STD)
-- Entrenamiento de modelos: Random Forest, SVM, MLP
-- **Mejor modelo:** MLP (F1-Score 0.71 test / 0.55 validación)
+## 🧠 Resultados destacados (resumen)
+- **EMG_Classification:** mejor F1-Score ≈ **0.71** (test) y **0.55** (validación) con **MLP**.
+- **EEG_EMG_Fusion:** **Random Forest** alcanzó **≈83%** de precisión con tiempo de inferencia intermedio.
 
-### 2. EEG_EMG_Fusion
-- Integración de señales EEG y EMG mediante resampling (200 Hz)
-- Filtrado, normalización (Z-score) y reducción de dimensionalidad (PCA)
-- Benchmarking de modelos: Random Forest, SVM, MLP
-- **Mejor modelo:** Random Forest (83% de precisión)
-
-## 🧰 Tecnologías utilizadas
-- Python (Pandas, NumPy, Scikit-learn, Matplotlib)
-- Procesamiento de señales (Filtrado, Normalización, PCA)
-- Machine Learning (SVM, Random Forest, MLP)
-- Métricas de rendimiento (F1-score, Accuracy, Precision)
-
-## 📚 Créditos
-Desarrollado por **Jorge Eduardo Sialer Kanamori**
+> Los detalles por proyecto están en los README de cada carpeta.
