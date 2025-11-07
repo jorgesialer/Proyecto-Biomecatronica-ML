@@ -1,6 +1,3 @@
-## 1.a) Proyecto: **EMG_Classification**  
-**Archivo:** `EMG_Classification/README.md`
-
 # 💪 EMG_Classification — Reconocimiento de patrones en señales EMG
 
 Proyecto de clasificación de movimientos a partir de **señales de Electromiografía (EMG)**. Incluye **limpieza**, **extracción de características** (tiempo) y **entrenamiento** de modelos clásicos de ML.
