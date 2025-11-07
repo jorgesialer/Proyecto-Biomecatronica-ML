@@ -1,6 +1,3 @@
-
----
-
 ## 1.a) Proyecto: **EMG_Classification**  
 **Archivo:** `EMG_Classification/README.md`
 
